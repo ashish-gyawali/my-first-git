@@ -1,0 +1,103 @@
+.menu_bar{
+    height: 15vh;
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+li{
+    list-style: none;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 16px;
+    position: relative;
+}
+.about{
+    position: absolute;
+    width: 150px;
+    left: -2.9rem;
+    padding-top: 1rem;
+    display: none;
+    cursor: pointer;
+}
+.about li{
+    padding: 0.5rem;
+    background-color: aquamarine;
+    width: 150px;
+    border-bottom: 1px solid beige;
+    border-radius: 5px;
+    display: block;
+    height: 30px;
+    line-height: 15px;
+    font-size: 15px;
+}
+.bca{
+    position: absolute;
+    width: 150px;
+    left: -2.9rem;
+    padding-top: 1rem;
+    display: none;
+    cursor: pointer;
+}
+.bca li{
+    padding: 0.5rem;
+    background-color: aquamarine;
+    width: 150px;
+    border-bottom: 1px solid beige;
+    border-radius: 5px;
+    display: block;
+    height: 30px;
+    line-height: 15px;
+    font-size: 15px;
+}
+.csit{
+    position: absolute;
+    width: 150px;
+    left: -2.9rem;
+    padding-top: 1rem;
+    display: none;
+    cursor: pointer;
+}
+.csit li{
+    padding: 0.5rem;
+    background-color: aquamarine;
+    width: 150px;
+    border-bottom: 1px solid beige;
+    border-radius: 5px;
+    display: block;
+    height: 30px;
+    line-height: 15px;
+    font-size: 15px;
+}
+.menu_bar .menu_contents li:hover > ul{
+    display: block;
+}
+@media screen and (max-width:1250px) {
+    .menu_bar .logo{
+        display: block;
+        position: relative;
+}
+.menu_bar .menu_contents{
+    position: absolute;
+    top: 11rem;
+}
+img{
+    width: 80%;
+}
+.menu_contents li{
+    padding-bottom: 1rem;
+}
+}
+@media screen and (max-width:575px){
+    .menu_contents{
+        display: none;
+        background-color: aqua;
+    }
+}
+.menu_contents:active{
+    color: orange;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

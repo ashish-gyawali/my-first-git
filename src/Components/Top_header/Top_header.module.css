@@ -1,0 +1,41 @@
+.top_header{
+    background-color: #06a3b4;
+    display: flex;
+    align-items: center;
+}
+.top_header .top_header_contacts{
+    margin-left: 1.5%;
+}
+.top_header .top_header_contacts li{
+    float: left;
+    list-style: none;
+    color: white;
+            /*top right bottom left */
+    margin: 1% 14px 0px 0px;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    font-weight: 450;
+}
+@media screen and (max-width:575px) {
+    .top_header_contacts{
+        display: none;
+    }
+    .top_header_icons{
+        height: 7vh;
+        display: flex;
+        align-items: center;
+    }
+}
+.contact_icon{
+    margin-right: 8px;
+}
+.top_header .top_header_icons a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.top_header .top_header_icons{
+    margin-left: 15%;
+    padding-left: 1%;
+    border-left: 2px solid white;
+}

@@ -1,0 +1,175 @@
+.we{
+    color: #06a3b4;
+    font-size: 30px;
+    padding-left: 2%;
+    margin-bottom: 0;
+    font-family: 'Open Sans';
+    margin-top: 3rem;
+}
+.text{
+    color: rgb(27, 11, 11);
+   line-height: 1.5rem;
+    padding-left: 2%;
+    font-size: 14px;
+    text-align: justify;
+    width: 60%;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.wb{
+    color: white;
+    background-color: #06a3b4;
+    margin-left: 4%;
+    margin-top: 1%;
+    width: 7rem;
+    height: 6vh;
+    font-size: larger;
+    font-family: 'open sans';
+    border-radius: 10px;
+    border: white;
+}
+.course{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    color: #06a3b4;
+    font-weight: 500;
+}
+.sem button{
+    background-color: gold;
+    border: none;
+    width: 200px;
+    height: 8vh;
+    margin-bottom: 2rem;
+    margin-left: 12%;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.cou{
+    color: #06a3b4;
+    font-size: 30px;
+    padding-left: 2%;
+    margin-bottom: 0;
+    font-family: 'Open Sans';
+    margin-top: 3rem;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .act{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    color: darkblue;
+    font-family: serif;
+  }
+  .act1,.act2,.act3,.act4{
+    border: 1px solid black;
+    width: 80%;
+    height: 350px;
+    float: left;
+  margin-right: 2%;
+  background-image: url(../images/footer.jpg);
+  background-size: cover;
+  margin-left: 2%;
+  margin-bottom: 1rem;
+    
+  
+  }
+  .slide{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    background-image: url(../../images/footer.jpg);
+    position: relative;
+  }
+  .abt{
+    width: 100%;
+    background: linear-gradient(135deg, #0c0e20 0%, #382715 100%);
+    height: 20vh;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    font-weight: 500;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+  }
+  .des{
+    margin-left: 3%;
+    width: 70%;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  .vis{
+    margin-left: 2%;
+    width: 70%;
+    text-decoration: underline;
+    opacity: 0.8;
+  }
+  .the{
+    margin-left: 3%;
+    width: 70%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  .mis{
+    margin-left: 2%;
+    width: 70%;
+    text-decoration: underline;
+    opacity: 0.8;
+    text-align: justify;
+  }
+  .md{
+    margin-left: 3%;
+    width: 70%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  .val{
+    margin-left: 2%;
+    width: 70%;
+    text-decoration: underline;
+    opacity: 0.8;
+  }
+  .vd{
+    margin-left: 3%;
+    width: 70%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    opacity: 0.8;
+    text-align: justify;
+  } 
+  .sin{
+    margin-left: 2%;
+    width: 70%;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    font-size: 14px;
+    opacity: 0.9;
+  }

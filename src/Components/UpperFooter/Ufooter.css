@@ -1,0 +1,33 @@
+.handshake{
+    background-color: #06a3b4;
+    width: 60%;
+    margin-left: 4%;
+    height: 18vh;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    position: relative;
+    margin-top: 1rem;
+}
+.hand{
+    margin-left: 1rem;
+    padding-top: 20px;
+    display: inline;
+}
+.at{
+    color: white;
+    display: inline;
+    position: absolute;
+    left: 9rem;
+    top: 1rem;
+}
+.w{
+    
+    color: white;
+    display: inline;
+    margin-left: 10rem;
+    width: 500px;
+    position: absolute;
+    top: 3rem;
+    font-size: 12px;
+    left: -1rem;
+}
